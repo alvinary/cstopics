@@ -2,6 +2,10 @@
 
 These are only beginner level references (I put here what I find useful).
 
+## Background Readings
+
++ Martin Löf's [Constructive Mathematics and Computer Programming](https://www.cs.tufts.edu/~nr/cs257/archive/per-martin-lof/constructive-math.pdf) explains very well the rationale for dependent types, and is super super readable - it is awesome when reading stuff firsthand is feasible :)
+
 ## Practical Aspects of Coq
 
 ### Small
