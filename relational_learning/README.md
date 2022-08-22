@@ -38,7 +38,7 @@ There's also stuff like delta prolog (I think that was the name), which
 is differentiable logic programming.
 
 I grouped these two approaches because there is some degree of integration between
-the two communities, and some authors are "both" (Pedro Domingos, Cohen,
+the two communities, and some authors are "both" (Pedro Domingos, Cohen, DeRaedt,
 and a couple more).
 
 ### Main Issues with Symbolic Relational Learning (the insurmountable hurdles)
