@@ -4,8 +4,8 @@
 
 Authors in the statistical relational learning community are interested
 in obtaining ML models for relational data: if you can drop in
-an SQL table holding data for a network of social network users with
-their posts and predict 'social unrest' some months in advance, or
+an SQL table holding data on social network users and their
+content and predict 'social unrest' some months in advance, or
 reliably discriminate between some classes of users, you can declare
 yourself happy.
 
@@ -41,7 +41,7 @@ I grouped these two approaches because there is some degree of integration betwe
 the two communities, and some authors are "both" (Pedro Domingos, Cohen,
 and a couple more).
 
-### Main Issues (the insurmountable hurdles)
+### Main Issues with Symbolic Relational Learning (the insurmountable hurdles)
 
 + Brittleness (you can use fuzzy, many-valued, soft, etc. truth values to overcome this)
 + Intractability (most ILP setups are way above NP. Exponential is commonplace)
@@ -57,6 +57,7 @@ and a couple more).
    respect a relational specification but could take prolog / clingo / etc a load of resources just to get sth that would
    be very easy to compute if I threw in some python/lua code...')
 +  Implicit computation ('Can I lazily unfold my problem instance, instead of filling 32GB ram with cnf clauses?')
++  Reducing the search space with some ad-hoc trick
 
 ## Knowledge Representation
 
