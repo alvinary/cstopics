@@ -65,3 +65,8 @@ Until very recently their beef was exclusively with semantic web technologies,
 sensor data, industrially labeled data and ontology/terminology induction, but
 these few last years they have been getting some vectors into their datasets and
 testing their approach with more 'vanilla' classification tasks in mind.
+
+## Graph Mining
+
+Hyperedge replacement, Abstract Meaning Representation, Tractable Cases (DAGs, etc),
+ALTO (Algebraic Language Toolkit)
