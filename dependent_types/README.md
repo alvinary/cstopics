@@ -12,7 +12,7 @@ These are only beginner level references (I put here what I find useful).
 
 + [Basic predicate logic](https://coq.inria.fr/tutorial/1-basic-predicate-calculus) - it's supposed to be outdated, but it worked great for me.
 + [Cornell Tactics Cheatsheet](https://www.cs.cornell.edu/courses/cs3110/2018sp/a5/coq-tactics-cheatsheet.html)
-+ Peirce is a very good speaker, and if you need to make a presentation or something on dependent types, [these slides](https://www.seas.upenn.edu/~sweirich/plmw12/Slides/plmw12-Pierce.pdf) use a good strategy you can copy. He introduces types as the most widely applied, automatic and robust formal method, and notes you have a trade-off between automation and expressive power (proof assistants > model checking > static analysis of types). That fits very well with 'Usable tools are used by everyone because you don't need to be an expert'.
++ Pierce is a very good speaker, and if you need to make a presentation or something on dependent types, [these slides](https://www.seas.upenn.edu/~sweirich/plmw12/Slides/plmw12-Pierce.pdf) use a good strategy you can copy. He introduces types as the most widely applied, automatic and robust formal method, and notes you have a trade-off between automation and expressive power (proof assistants > model checking > static analysis of types). That fits very well with 'Usable tools are used by everyone because you don't need to be an expert'.
 
 ## Practical Aspects of Idris
 
