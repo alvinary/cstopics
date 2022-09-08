@@ -4,7 +4,11 @@ These are only beginner level references (I put here what I find useful).
 
 ## Background Readings
 
-+ Martin Löf's [Constructive Mathematics and Computer Programming](https://www.cs.tufts.edu/~nr/cs257/archive/per-martin-lof/constructive-math.pdf) explains very well the rationale for dependent types, and is super super readable - it is awesome when reading stuff firsthand is feasible :)
++ **Constructive Mathematics and Computer Programming** explains very well the rationale for dependent types, and is super super readable - it is awesome when reading stuff firsthand is feasible :)
+
++ **An introduction to Generalized Type Systems** has 'tutorial' vibes and makes notation very clear. It presents hte lambda cube (extensions of the simply typed lambda calculus with functions from types to types, types to values and values to types).
+
++ **Dependent Types at Work** shows how to formalize simple properties of some common algebraic datatypes in Agda. Software Foundations is (in my opinion) better in terms of amount / type of exercises, but this article is still useful.
 
 ## Practical Aspects of Coq
 
@@ -13,18 +17,6 @@ These are only beginner level references (I put here what I find useful).
 + [Basic predicate logic](https://coq.inria.fr/tutorial/1-basic-predicate-calculus) - it's supposed to be outdated, but it worked great for me.
 + [Cornell Tactics Cheatsheet](https://www.cs.cornell.edu/courses/cs3110/2018sp/a5/coq-tactics-cheatsheet.html)
 + Pierce is a very good speaker, and if you need to make a presentation or something on dependent types, [these slides](https://www.seas.upenn.edu/~sweirich/plmw12/Slides/plmw12-Pierce.pdf) use a good strategy you can copy. He introduces types as the most widely applied, automatic and robust formal method, and notes you have a trade-off between automation and expressive power (proof assistants > model checking > static analysis of types). That fits very well with 'Usable tools are used by everyone because you don't need to be an expert'.
-
-## Practical Aspects of Idris
-
-### Installation
-
-Installing Idris is easier using Stack (juding from google search results, installation via Cabal often fails):
-
-```
-curl -sSL https://get.haskellstack.org/ | sh
-stack --install-ghc install idris
-```
-(I gues the --install-ghc flag means a separate/new ghc installation is made).
 
 ### Books
 
