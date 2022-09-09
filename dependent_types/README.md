@@ -8,7 +8,7 @@ These are only beginner level references (I put here what I find useful).
 
 + **An introduction to Generalized Type Systems** has 'tutorial' vibes and makes notation very clear. It presents hte lambda cube (extensions of the simply typed lambda calculus with functions from types to types, types to values and values to types).
 
-+ **Dependent Types at Work** shows how to formalize simple properties of some common algebraic datatypes in Agda. Software Foundations is (in my opinion) better in terms of amount / type of exercises, but this article is still useful.
++ **Dependent Types at Work** shows how to formalize simple properties of some common algebraic datatypes in Agda. Software Foundations is (in my opinion) better in terms of amount / type of exercises, but this article is still useful. To me the best part is that it spells out in detail the inference rules for connectives as Agda types, and explains concisely and from first principles the propositions-as-types interpretation. I don't think any of the other references does that so well.
 
 ## Practical Aspects of Coq
 
