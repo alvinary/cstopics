@@ -10,7 +10,18 @@ These are only beginner level references (I put here what I find useful).
 
 + **Dependent Types at Work** shows how to formalize simple properties of some common algebraic datatypes in Agda. Software Foundations is (in my opinion) better in terms of amount / type of exercises, but this article is still useful. To me the best part is that it spells out in detail the inference rules for logic connectives as Agda types, and explains concisely and from first principles the propositions-as-types interpretation. I don't think any of the other references does that so well.
 
-## Practical Aspects of Coq
++ **An Introduction to the Calculus of Inductive Constructions** is not very orderly, but it describes very precisely the 'core nature' of inductive proofs, and each paragraph contains lots of examples wwhich make you feel 'oh, right - I get this now'. Having the natural numbers as the first example was very helpful to me.
+
+## Notes / What I got so fat
+
+* The calculus of inductive constructions adds datatypes to CoC (the one from Berandregt's paper), and has one separate sort (Prop) for the types of formulae.
+
+* When writing an inductive definition of a relation, what one does is 'build the whole set', in such a way that, if for each constructor I provide a map for elements of that constructor to some other type, exhaustively, I can always go from terms of the former type to the later. If that later type happens to be some Prop, then that's effectively a procedure converting terms of a given type to statements about those terms. 
+
+* A proof object is a term of the proposition one wants.
+
+* 'Exists' is simply `Exists A (phi : A -> Prop) := some : Forall x. (P x) -> Exists A P` (clever). That is, an inductive datatype (belonging to Prop) whose only constrctor takes whatever function P from A (every / any A) to Prop you have (you *have* to have one first, that's why you know it exists), and there, I can give you a function from P x to Exists A P. Now, this means that, to have your 'Exists A P', you'll have to give me some a : A, so once we have that a, we'll take (P a) and use it to compute exists (P a), which will be of type (Exists A P).
+
 
 ### Small
 
