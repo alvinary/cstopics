@@ -2,6 +2,10 @@
 
 These are only beginner level references (I put here what I find useful).
 
+## Recommended
+
+The book *Type Theory and Formal Proof: An Introduction* (the authors are Rob Nederpelt and Herman Geuvers) is more focused on dependent types and lambda calculi as a foundation and proof discipline for mathematics than the semantics of programming languages, for instance, but is, in my opinion, the best introductory book I found. Everything is clearly laid out without being tedious. The first chapter does wonders explaining the Church-Rosser theorem and all the usual properties of the untyped lambda calculus, and proves a handful of them, explaining very clearly why the standard inference rules and terms are what they are (being so mindful about being clear that they even explain the names of terms, or distinctions like 'applications vs reductions vs evaluation', while also being mindful of being concise and to the point). Up to page 136 (the first four or five chapters) it is perfect material for a laid-back / not struggly introduction to dependent types. The rest of the book focuses on modeling basic number theory and set theory, so it may or may be not what you are looking for.
+
 ## Background Readings
 
 + **Constructive Mathematics and Computer Programming** explains very well the rationale for dependent types, and is super super readable - it is awesome when reading stuff firsthand is feasible :)
